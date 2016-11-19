@@ -1,0 +1,32 @@
+1 VERSIONINFO
+ FILEVERSION 1,0,0,5
+ PRODUCTVERSION 1,0,0,5
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904b0"
+        BEGIN
+            VALUE "CompanyName", "Crystice Softworks"
+            VALUE "FileDescription", "QindieGL"
+            VALUE "FileVersion", "1.0.0.5"
+            VALUE "InternalName", "opengl32.dll"
+            VALUE "LegalCopyright", "Copyright (C) 2016"
+            VALUE "OriginalFilename", "opengl32.dll"
+            VALUE "ProductName", "QindieGL"
+            VALUE "ProductVersion", "1.0.0.5"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1200
+    END
+END
