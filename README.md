@@ -4,6 +4,8 @@
 
 ![QindieGL Logo](logo/QIndieGL-Logo-small.png?raw=true)
 
+[Download Win32 32-bit Binaries](https://github.com/crystice-softworks/QindieGL/raw/master/bin/QindieGL.1.0.rev5.zip)
+
 ## Introduction
 
 QindieGL is a wrapper library which emulates OpenGL API using Microsoft Direct3D 9.0c. Emulation is not complete - some features are not implemented. Although the existing functionality allows to play some OpenGL-based games using the wrapper. There are several reasons to use QindieGL instead if the native OpenGL renderer:
@@ -23,7 +25,7 @@ Please perform the following steps to install and enable QindieGL:
 3. Run the game; make sure the `QindieGL.log` file is created; this means that game has successfully hooked the wrapper.
 4. If you want to restore the native OpenGL renderer, delete the `opengl32.dll` file from the game executable's directory.
 
-Please also read *Security Notice* before using QindieGL!
+Please also read **Security Notice** before using QindieGL!
 
 ## Supported Games
 - Quake 2 (in OpenGL mode)
