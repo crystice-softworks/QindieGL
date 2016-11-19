@@ -12,7 +12,7 @@ QindieGL is a wrapper library which emulates OpenGL API using Microsoft Direct3D
 2. Some drivers are glitchy (especially for mobile video cards) and lack for a proper OpenGL support, but Direct3D is supported. Then you can use the wrapper to play an OpenGL-based game.
 3. People may want to implement multi-renderer in their engine, so it will be capable to render using either OpenGL, or Direct3D. Then this wrapper can be linked statically to such renderers, or loaded dynamically instead of a regular OpenGL system library. Please note that only simple OpenGL features are supported (up to version 1.4); this means there are no shaders, vertex buffer objects, etc. However all these features can be added, since where will be no need for ideal compatibility with already compiled binaries.
 
-[![Quake II with QindieGL](https://cloud.githubusercontent.com/assets/20521208/20456521/d9c1e7ae-aeaa-11e6-99f7-d972bc49dbf0.jpg?raw=true)](https://cloud.githubusercontent.com/assets/20521208/20456526/d9dfa41a-aeaa-11e6-8d30-5973df9cf778.jpg) [![Quake III with QindieGL](https://cloud.githubusercontent.com/assets/20521208/20456522/d9c2621a-aeaa-11e6-8041-dd9af8798389.jpg?raw=true)](https://cloud.githubusercontent.com/assets/20521208/20456523/d9c49ab2-aeaa-11e6-8f9b-a33899f66c3c.jpg) [![Tux Racer with QindieGL](https://cloud.githubusercontent.com/assets/20521208/20456524/d9dafd16-aeaa-11e6-90d2-2d0dbee4e06a.jpg?raw=true)](https://cloud.githubusercontent.com/assets/20521208/20456525/d9db1940-aeaa-11e6-89c2-bef4e211cc3a.jpg)
+[![Quake II with QindieGL](https://cloud.githubusercontent.com/assets/20521208/20456521/d9c1e7ae-aeaa-11e6-99f7-d972bc49dbf0.jpg?raw=true)](https://cloud.githubusercontent.com/assets/20521208/20456526/d9dfa41a-aeaa-11e6-8d30-5973df9cf778.jpg) [![Quake III with QindieGL](https://cloud.githubusercontent.com/assets/20521208/20456522/d9c2621a-aeaa-11e6-8041-dd9af8798389.jpg?raw=true)](https://cloud.githubusercontent.com/assets/20521208/20456523/d9c49ab2-aeaa-11e6-8f9b-a33899f66c3c.jpg)
 
 ## Setup
 
@@ -37,6 +37,8 @@ Please also read *Security Notice* before using QindieGL!
 - GLQuake (Z-trick must be disabled, e.g. type `gl_ztrick 0` in the console)
 - Tux Racer
 - and maybe some others not tested; simply check!
+
+[![Tux Racer with QindieGL](https://cloud.githubusercontent.com/assets/20521208/20456524/d9dafd16-aeaa-11e6-90d2-2d0dbee4e06a.jpg?raw=true)](https://cloud.githubusercontent.com/assets/20521208/20456525/d9db1940-aeaa-11e6-89c2-bef4e211cc3a.jpg)
 
 ## Feature Support
 - Accumulator - no
